@@ -1,0 +1,57 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0,
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    // "vim.keyboardLayout": "en-US (QWERTY)",
+    // "vim.insertModeKeyBindings": {
+    // },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        },
+        // {
+        //     "j": "vim.Esc"
+        // }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before":["<C-n>"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-x>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-r>": false,
+        "<C-y>": false,
+        "<C-k>": false,
+        "<C-u>": false
+    }
+}
+
