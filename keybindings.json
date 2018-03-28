@@ -1,0 +1,131 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    //UP keybindings
+    {
+        "key": "ctrl+i",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "repl.action.historyPrevious",
+        "when": "editorTextFocus && inDebugRepl && onFirsteDebugReplLine"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "showPrevParameterHint",
+        "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "search.focus.previousInputBox",
+        "when": "inputBoxFocus && searchViewletVisible && !searchInputBoxFocus"
+    },
+    //DOWN keybindings
+    {
+        "key": "ctrl+k",
+        "command": "repl.action.historyNext",
+        "when": "editorTextFocus && inDebugRepl && onLastDebugReplLine"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "showNextParameterHint",
+        "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "search.focus.nextInputBox",
+        "when": "inputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    
+    //LEFT keybind
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    
+    //RIGHT keybind
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    
+    //ENTER keybind
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "repl.action.acceptInput",
+        "when": "editorTextFocus && inDebugRepl"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "acceptSnippet",
+        "when": "editorTextFocus && inSnippetMode"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "acceptSelectedSuggestionOnEnter",
+        "when": "acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "acceptRenameInput",
+        "when": "editorFocus && renameInputVisible"
+    },
+    
+    //BACKSPACE keybind
+    {
+        "key": "ctrl+u",
+        "command": "deleteLeft",
+        "when": "editorTextFocus"
+    },
+    
+    //SELECTION LEFT
+    {
+        "key": "ctrl+shift+j",
+        "command": "cursorLeftSelect",
+        "when": "editorTextFocus"
+    },
+
+    //SELECTION RIGHT
+    {
+        "key": "ctrl+shift+l",
+        "command": "cursorRightSelect",
+        "when": "editorTextFocus"
+    },
+
+    //SELECTION UP
+    {
+        "key": "ctrl+shift+i",
+        "command": "cursorUpSelect",
+        "when": "editorTextFocus"
+    },
+
+    //SELECTION DOWN
+    {
+        "key": "ctrl+shift+k",
+        "command": "cursorDownSelect",
+        "when": "editorTextFocus"
+    }
+]
