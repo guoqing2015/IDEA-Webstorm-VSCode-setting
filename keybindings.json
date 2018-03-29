@@ -1,11 +1,11 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     //UP keybindings
-    {
-        "key": "ctrl+i",
-        "command": "cursorUp",
-        "when": "editorTextFocus"
-    },
+    // {
+    //     "key": "ctrl+i",
+    //     "command": "cursorUp",
+    //     "when": "editorTextFocus"
+    // },
     {
         "key": "ctrl+i",
         "command": "repl.action.historyPrevious",
@@ -48,17 +48,18 @@
         "when": "inputBoxFocus && searchViewletVisible"
     },
     {
-        "key": "ctrl+k",
+        // "key": "ctrl+k",
+        "key": "ctrl+n",
         "command": "cursorDown",
         "when": "editorTextFocus"
     },
     
     //LEFT keybind
-    {
-        "key": "ctrl+j",
-        "command": "cursorLeft",
-        "when": "editorTextFocus"
-    },
+    // {
+    //     "key": "ctrl+j",
+    //     "command": "cursorLeft",
+    //     "when": "editorTextFocus"
+    // },
     
     //RIGHT keybind
     {
@@ -95,37 +96,37 @@
     },
     
     //BACKSPACE keybind
-    {
-        "key": "ctrl+u",
-        "command": "deleteLeft",
-        "when": "editorTextFocus"
-    },
+    // {
+    //     "key": "ctrl+u",
+    //     "command": "deleteLeft",
+    //     "when": "editorTextFocus"
+    // },
     
     //SELECTION LEFT
-    {
-        "key": "ctrl+shift+j",
-        "command": "cursorLeftSelect",
-        "when": "editorTextFocus"
-    },
+    // {
+    //     "key": "ctrl+shift+j",
+    //     "command": "cursorLeftSelect",
+    //     "when": "editorTextFocus"
+    // },
 
-    //SELECTION RIGHT
-    {
-        "key": "ctrl+shift+l",
-        "command": "cursorRightSelect",
-        "when": "editorTextFocus"
-    },
+    // //SELECTION RIGHT
+    // {
+    //     "key": "ctrl+shift+l",
+    //     "command": "cursorRightSelect",
+    //     "when": "editorTextFocus"
+    // },
 
-    //SELECTION UP
-    {
-        "key": "ctrl+shift+i",
-        "command": "cursorUpSelect",
-        "when": "editorTextFocus"
-    },
+    // //SELECTION UP
+    // {
+    //     "key": "ctrl+shift+i",
+    //     "command": "cursorUpSelect",
+    //     "when": "editorTextFocus"
+    // },
 
-    //SELECTION DOWN
-    {
-        "key": "ctrl+shift+k",
-        "command": "cursorDownSelect",
-        "when": "editorTextFocus"
-    }
+    // //SELECTION DOWN
+    // {
+    //     "key": "ctrl+shift+k",
+    //     "command": "cursorDownSelect",
+    //     "when": "editorTextFocus"
+    // }
 ]
