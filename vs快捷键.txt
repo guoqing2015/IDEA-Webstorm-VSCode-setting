@@ -1,6 +1,0 @@
- multiline editing： 
-	1. On Windows, you hold Ctrl+Alt while pressing the up ↑ or down ↓ arrow keys to add cursors. On Mac and Linux, the equivalents are ? Opt+? Cmd+↑/↓ and Shift+Alt+↑/↓, respectively.
-
-   2. 按住alt键，在你想要的位置上点击一下，即可增加的一个光标。
-
-   3. Ctrl + F, 输入你想要查找的单词，按下Alt + Enter, 即可全局编辑
