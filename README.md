@@ -2,8 +2,8 @@
 
 ## 配置文件
 
-keybinding.json
-snippets
+- keybinding.json
+- snippets
 
 ## 快捷键
 
