@@ -24,4 +24,7 @@
  - Code Runner：
  - Debugger for Chrome
  - eslint 
+ - IntelliSense for CSS class names in HTML : css提示
+ - Path Intellisense： 路径提示
+ - npm Intellisense
 
