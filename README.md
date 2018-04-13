@@ -14,8 +14,14 @@
 
    3. Ctrl + F, 输入你想要查找的单词，按下Alt + Enter, 即可全局编辑
 
+- Shift + Alt + F 格式化代码   
+
 ## 必装插件
  - vim
  - vscode-icos ：让文件类型一目了然
  - Project Manager ：管理项目
+ - Beautify ： 格式化代码
+ - Code Runner：
+ - Debugger for Chrome
+ - eslint 
 
