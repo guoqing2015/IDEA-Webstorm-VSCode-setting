@@ -1,0 +1,2 @@
+"evermonkey.token": "S=s51:U=14f2154:E=16d7d0644f0:C=16625551568:P=1cd:A=en-devtoken:V=2:H=5c4152acf733909a84be84c071bbd42d",
+"evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s51/notestore"
