@@ -28,4 +28,4 @@
  - Path Intellisense： 路径提示
  - npm Intellisense
  - Vetur : vue 支持
- - One Monokai ： sublime颜色主题
+
