@@ -18,6 +18,7 @@
 
 ## 必装插件
  - vim
+ - Code Outline : 查看代码结构
  - vscode-icos ：让文件类型一目了然
  - Project Manager ：管理项目
  - Beautify ： 格式化代码
