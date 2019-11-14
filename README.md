@@ -29,4 +29,6 @@
  - Path Intellisense： 路径提示
  - npm Intellisense
  - Vetur : vue 支持
+ - wxml: 微信小程序wxml格式化及高亮组件
+ - minapp ： 微信小程序标签、属性的智能补全（同时支持原生小程序、mpvue 和 wepy 框架，并提供 snippets）
 
