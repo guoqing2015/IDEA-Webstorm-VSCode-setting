@@ -55,11 +55,11 @@
     },
     
     //LEFT keybind
-    // {
-    //     "key": "ctrl+j",
-    //     "command": "cursorLeft",
-    //     "when": "editorTextFocus"
-    // },
+     {
+         "key": "ctrl+j",
+         "command": "cursorLeft",
+         "when": "editorTextFocus"
+     },
     
     //RIGHT keybind
     {
