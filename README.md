@@ -35,3 +35,20 @@
  - px to rpx
  - 小程序助手
 
+## 排除文件设定
+搜索期间需要忽略的一些文件夹 `.vscode/setting.json`,
+
+```
+{
+    // ...
+   "search.exclude": {
+       "**/.git": true,
+       "**/node_modules": true,
+       "**/bower_components": true,
+       "**/tmp": true
+    },
+    // ...
+}
+```
+
+
