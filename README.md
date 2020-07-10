@@ -22,7 +22,7 @@
  - vscode-icos ：让文件类型一目了然
  - Project Manager ：管理项目
  - Beautify ： 格式化代码
- - Code Runner：
+ - vue-beautify
  - Debugger for Chrome
  - eslint 
  - IntelliSense for CSS class names in HTML : css提示
@@ -34,6 +34,12 @@
  - 微信小程序开发工具
  - px to rpx
  - 小程序助手
+ 
+ - Javascript Snippet
+ - HTML Snippets
+ - wechat-snippet
+ - vue 2 Snippets
+ 
 
 ## 排除文件设定
 搜索期间需要忽略的一些文件夹 `.vscode/setting.json`,
