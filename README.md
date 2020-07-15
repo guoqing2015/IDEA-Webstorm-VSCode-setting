@@ -32,7 +32,7 @@
  - wxml: 微信小程序wxml格式化及高亮组件
  - minapp ： 微信小程序标签、属性的智能补全（同时支持原生小程序、mpvue 和 wepy 框架，并提供 snippets）
  - 微信小程序开发工具
- - px to rpx
+ - Rem rpx px -Converter
  - 小程序助手
  
  - Javascript Snippet
