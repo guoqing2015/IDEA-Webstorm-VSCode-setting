@@ -43,6 +43,15 @@
         "<C-v>": false
     },
     "vim.useSystemClipboard": false,
-    "vim.overrideCopy": false
+    "vim.overrideCopy": false,
+     "fileheader.customMade": {
+        "Descripttion":"",
+        "Author":"郭清",
+        "Date":"Do not edit",
+        "LastEditors":"郭清",
+        "LastEditTime":"Do not Edit",
+        "FilePath":"Do not Edit"
+    },
+    "fileheader.cursorMode": {}
 }
 
