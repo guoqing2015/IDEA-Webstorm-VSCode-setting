@@ -34,6 +34,7 @@
  - 微信小程序开发工具
  - Rem rpx px -Converter
  - 小程序助手
+ - koroFileHeader ： 自动注释插件设置
  
  - Javascript Snippet
  - HTML Snippets
