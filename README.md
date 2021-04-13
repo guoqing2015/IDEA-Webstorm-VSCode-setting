@@ -71,5 +71,7 @@
 - Rainbow Brackets : 实现括号配对
 - Json Parser : 直接在IDE中进行格式化JSON
 - Material Theme UI
+- IDE Features Trainer : 会对IDE中的一些快捷键
+- Codota : 快速的编写Nodejs代码。
 
 
