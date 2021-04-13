@@ -59,4 +59,11 @@
 }
 ```
 
+# WebStorm配置
+
+## 必装插件
+- AceJump ：跳转到指定代码位置
+- IdeaVIm ： Vim模式
+- CodeGlance : 代码缩略
+
 
