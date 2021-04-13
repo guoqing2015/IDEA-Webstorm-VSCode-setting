@@ -61,6 +61,9 @@
 
 # WebStorm配置
 
+[ WebStorm“奇技淫巧” ](https://github.com/YutHelloWorld/Blog/issues/8)
+
+
 ## 必装插件
 - AceJump ：跳转到指定代码位置
 - IdeaVIm ： Vim模式
