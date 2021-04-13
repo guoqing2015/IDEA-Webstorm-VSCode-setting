@@ -70,5 +70,6 @@
 - CodeGlance : 在右侧生成一个代码缩略图
 - Rainbow Brackets : 实现括号配对
 - Json Parser : 直接在IDE中进行格式化JSON
+- Material Theme UI
 
 
