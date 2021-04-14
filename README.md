@@ -79,8 +79,14 @@
 ### navigate
 - alt + 向下箭头 ： 跳转下一个函数
 - alt + 向上箭头 ： 跳转上一个函数
-- alt + 向左箭头 ： 跳转左边文件
-- alt + 向右箭头 ： 跳转右边文件
+- alt + 向左箭头 ： 跳转左边标签
+- alt + 向右箭头 ： 跳转右边标签
+
+
+ - ctrl + f: 查找
+ - ctrl + shift + f: 全局查找
+ - ctrl + r: 替换
+ -  ctrl + shift + r: 全局替换
 
  - ctrl + shift + n: 打开工程中的文件，目的是打开当前工程下任意目录的文件。
  - ctrl + j: 输出模板
@@ -88,12 +94,9 @@
  - ctrl + alt + T: 围绕包裹代码(包括zencoding的Wrap with Abbreviation)
  - ctrl + []: 匹配 {}[]
  - ctrl + F12: 可以显示当前文件的结构
- - ctrl + x: 剪切(删除)行，不选中，直接剪切整个行，如果选中部分内容则剪切选中的内容
- - alt + left/right:标签切换
- - ctrl + r: 替换
+
  - ctrl + shift + up: 行移动
  - shift + alt + up: 块移动(if(){},while(){}语句块的移动)
- - ctrl + d: 行复制
  - ctrl + shift + ]/[: 选中块代码
  - ctrl + / : 单行注释
  - ctrl + shift + / : 块注释
