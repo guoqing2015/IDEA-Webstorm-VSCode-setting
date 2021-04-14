@@ -104,7 +104,3 @@ shift + esc: 当前激活的任意小窗口最小化，也可以是alt+数字键
 alt + '7': 显示当前的函数结构。
 如果是*.html页面，则在文件名下的导航栏某DOM结构上右键，可以全选当前DOM结构。
 
-作者：resharpe
-链接：https://www.imooc.com/article/12498
-来源：慕课网
-
