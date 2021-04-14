@@ -75,4 +75,8 @@
 - IDE Features Trainer : 会对IDE中的一些快捷键
 - Codota : 快速的编写Nodejs代码。
 
+## 快捷键
+### navigate
+alt + 向下箭头 ： 跳转下一个函数
+alt + 向上箭头 ： 跳转上一个函数
 
