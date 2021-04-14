@@ -67,6 +67,7 @@
 ## 必装插件
 - AceJump ：跳转到指定代码位置
 - IdeaVIm ： Vim模式
+- IdeaVimExtension : 为ieadvim插件自动切换英文输入法的功能
 - CodeGlance : 在右侧生成一个代码缩略图
 - Rainbow Brackets : 实现括号配对
 - Json Parser : 直接在IDE中进行格式化JSON
