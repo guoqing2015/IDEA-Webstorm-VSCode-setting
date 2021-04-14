@@ -82,25 +82,25 @@
 - alt + 向左箭头 ： 跳转左边文件
 - alt + 向右箭头 ： 跳转右边文件
 
-ctrl + shift + n: 打开工程中的文件，目的是打开当前工程下任意目录的文件。
-ctrl + j: 输出模板
-ctrl + b: 跳到变量申明处
-ctrl + alt + T: 围绕包裹代码(包括zencoding的Wrap with Abbreviation)
-ctrl + []: 匹配 {}[]
-ctrl + F12: 可以显示当前文件的结构
-ctrl + x: 剪切(删除)行，不选中，直接剪切整个行，如果选中部分内容则剪切选中的内容
-alt + left/right:标签切换
-ctrl + r: 替换
-ctrl + shift + up: 行移动
-shift + alt + up: 块移动(if(){},while(){}语句块的移动)
-ctrl + d: 行复制
-ctrl + shift + ]/[: 选中块代码
-ctrl + / : 单行注释
-ctrl + shift + / : 块注释
-ctrl + shift + i : 显示当前CSS选择器或者JS函数的详细信息
-ctrl + '-/+': 可以折叠项目中的任何代码块，它不是选中折叠，而是自动识别折叠。
-ctrl + '.': 折叠选中的代码的代码。
-shift + esc: 当前激活的任意小窗口最小化，也可以是alt+数字键，数字在小窗口有显示。
-alt + '7': 显示当前的函数结构。
-如果是*.html页面，则在文件名下的导航栏某DOM结构上右键，可以全选当前DOM结构。
+ - ctrl + shift + n: 打开工程中的文件，目的是打开当前工程下任意目录的文件。
+ - ctrl + j: 输出模板
+ - ctrl + b: 跳到变量申明处
+ - ctrl + alt + T: 围绕包裹代码(包括zencoding的Wrap with Abbreviation)
+ - ctrl + []: 匹配 {}[]
+ - ctrl + F12: 可以显示当前文件的结构
+ - ctrl + x: 剪切(删除)行，不选中，直接剪切整个行，如果选中部分内容则剪切选中的内容
+ - alt + left/right:标签切换
+ - ctrl + r: 替换
+ - ctrl + shift + up: 行移动
+ - shift + alt + up: 块移动(if(){},while(){}语句块的移动)
+ - ctrl + d: 行复制
+ - ctrl + shift + ]/[: 选中块代码
+ - ctrl + / : 单行注释
+ - ctrl + shift + / : 块注释
+ - ctrl + shift + i : 显示当前CSS选择器或者JS函数的详细信息
+ - ctrl + '-/+': 可以折叠项目中的任何代码块，它不是选中折叠，而是自动识别折叠。
+ - ctrl + '.': 折叠选中的代码的代码。
+ - shift + esc: 当前激活的任意小窗口最小化，也可以是alt+数字键，数字在小窗口有显示。
+ - alt + '7': 显示当前的函数结构。
+ - 如果是*.html页面，则在文件名下的导航栏某DOM结构上右键，可以全选当前DOM结构。
 
