@@ -29,6 +29,11 @@
 - Alt + F7 -> find usages
 - Ctrl + Shift + T -> navigate to test
 
+### 折叠
+- 可以通过 ctrl+F12直接显示一个弹出层，里面只有这个类的属性和方法，点击就能快速定位了。
+- `Ctrl`+`Shift`+`-`，折叠所有代码
+- `Ctrl`+`Shift`+`+`，展开所有代码。
+
 ##
 - ctrl + shift + F12 关闭/打开左侧导航
 - ctrl + F12 文件结构
