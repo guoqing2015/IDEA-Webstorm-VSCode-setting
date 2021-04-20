@@ -22,6 +22,13 @@
 - alt + 向左箭头 ： 跳转左边标签
 - alt + 向右箭头 ： 跳转右边标签
 
+### Top 5 IntelliJ IDEA Navigation Shortcuts
+- 2x Shift -> search everywhere
+- Ctrl + E -> recent files
+- Ctrl + Alt + B -> navigate to implementation
+- Alt + F7 -> find usages
+- Ctrl + Shift + T -> navigate to test
+
 ##
 - ctrl + shift + F12 关闭/打开左侧导航
 - ctrl + F12 文件结构
