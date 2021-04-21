@@ -22,12 +22,11 @@
 - alt + 向左箭头 ： 跳转左边标签
 - alt + 向右箭头 ： 跳转右边标签
 
-### IntelliJ IDEA Navigation Shortcuts
+### TOP 5 IntelliJ IDEA Navigation Shortcuts
 - 2x Shift -> search everywhere
 - Ctrl + E -> recent files
-- Ctrl + B: 快速打开光标处的类或方法 或 Ctrl + 鼠标左键单击
-- Ctrl + Alt + B -> Go to implementation(s) 跳转方法实现处
 - Alt + F7 -> find usages
+- Ctrl + Alt + B -> Go to implementation(s)
 - Ctrl + Shift + T -> navigate to test
 
 ### 折叠
@@ -37,7 +36,7 @@
 
 ### 文件
 - ctrl + shift + F12 关闭/打开左侧导航
-- Ctrl+E  最近打开的文件
+- Ctrl + E  最近打开的文件
 - ctrl + alt + 12 文件路径
 
 ### 查找替换
@@ -51,7 +50,8 @@
  - F2 或 Shift+F2	高亮错误或警告快速定位
  - Alt + Up/Down	Go to previous/next method 跳转到上一个/下一个方法
  - ctrl + []: 匹配 {}[]
- 
+ - Ctrl + B: 快速打开光标处的类或方法 或 Ctrl + 鼠标左键单击
+ - Ctrl + Alt + B -> Go to implementation(s) 跳转方法实现处
 
 ### 代码预览
  - ctrl + P	方法参数提示
