@@ -22,10 +22,11 @@
 - alt + 向左箭头 ： 跳转左边标签
 - alt + 向右箭头 ： 跳转右边标签
 
-### Top 5 IntelliJ IDEA Navigation Shortcuts
+### IntelliJ IDEA Navigation Shortcuts
 - 2x Shift -> search everywhere
 - Ctrl + E -> recent files
-- Ctrl + Alt + B -> navigate to implementation
+- Ctrl + B: 快速打开光标处的类或方法 或 Ctrl + 鼠标左键单击
+- Ctrl + Alt + B -> Go to implementation(s) 跳转方法实现处
 - Alt + F7 -> find usages
 - Ctrl + Shift + T -> navigate to test
 
@@ -34,22 +35,36 @@
 - `Ctrl`+`Shift`+`-`，折叠所有代码
 - `Ctrl`+`Shift`+`+`，展开所有代码。
 
-##
+## 文件
 - ctrl + shift + F12 关闭/打开左侧导航
-- ctrl + F12 文件结构
+- Ctrl+E  最近打开的文件
 - ctrl + alt + 12 文件路径
 
-### 
+### 查找替换
  - ctrl + f: 查找
  - ctrl + shift + f: 全局查找
- - ctrl + r: 替换
- -  ctrl + shift + r: 全局替换
+ - ctrl + R: 替换
+ - ctrl + shift + r: 全局替换
+
+### 代码定位
+ - 选中文本，按 Ctrl + Shift + F7 高亮显示所有该文本，按Esc高亮消失。
+ - F2 或 Shift+F2	高亮错误或警告快速定位
+ - Alt + Up/Down	Go to previous/next method 跳转到上一个/下一个方法
+ - ctrl + []: 匹配 {}[]
+ 
+
+### 代码预览
+ - ctrl + P	方法参数提示
+ - Ctrl + Shift + I	Open quick definition lookup 打开定义快速查找,小窗口预览定义
+ - ctrl + F12 文件结构
+
+
 
  - ctrl + shift + n: 打开工程中的文件，目的是打开当前工程下任意目录的文件。
  - ctrl + j: 输出模板
- - ctrl + b: 跳到变量申明处
+
  - ctrl + alt + T: 围绕包裹代码(包括zencoding的Wrap with Abbreviation)
- - ctrl + []: 匹配 {}[]
+
  - ctrl + F12: 可以显示当前文件的结构
 
  - ctrl + shift + up: 行移动
