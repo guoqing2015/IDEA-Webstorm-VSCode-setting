@@ -38,7 +38,7 @@
 - `Ctrl`+`Shift`+`+`，展开所有代码。
 
 ### 文件
-- ctrl + shift + F12 关闭/打开左侧导航
+- ctrl + shift + F12 关闭/打开左侧导航和底部窗口
 - Ctrl + E  最近打开的文件
 - ctrl + alt + 12 文件路径
 
