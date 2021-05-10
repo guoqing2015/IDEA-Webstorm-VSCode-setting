@@ -8,8 +8,8 @@
 - AceJump ：跳转到指定代码位置
 - IdeaVIm ： Vim模式
 - IdeaVimExtension : 为ieadvim插件自动切换英文输入法的功能, 设置模式 `set keep-english-in-normal`
-- - Codota : 快速的编写Nodejs代码。
-- 
+- Codota : 快速的编写Nodejs代码。
+
 ## 其他插件
 - CodeGlance : 在右侧生成一个代码缩略图
 - Rainbow Brackets : 实现括号配对 (慎用，安装后打开项目后会一直加载，很慢)
