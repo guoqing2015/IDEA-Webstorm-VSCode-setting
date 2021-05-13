@@ -117,6 +117,11 @@
  - Ctrl + Shift + F12	Toggle maximizing editor 切换最大化编辑器
  - Alt + Shift + F	Add to Favorites 添至收藏夹
 
+
+### Webstorm debugger for node.js doesn't connect for executed node.js process
+
+解决： Must be https://youtrack.jetbrains.com/issue/WEB-40496; please try disabling js.debugger.use.node.options key in Registry (Help | Find action, type Registry to locate it) - does it make things any better?
+
 # VScode 的配置
 
 ## 配置文件
