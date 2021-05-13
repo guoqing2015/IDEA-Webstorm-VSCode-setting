@@ -122,6 +122,10 @@
 
 解决： Must be https://youtrack.jetbrains.com/issue/WEB-40496; please try disabling js.debugger.use.node.options key in Registry (Help | Find action, type Registry to locate it) - does it make things any better?
 
+
+[详解配置Visual Studio/Webstorm来调试JavaScript](https://cloud.tencent.com/developer/article/1563419)
+
+
 # VScode 的配置
 
 ## 配置文件
