@@ -33,6 +33,10 @@
 - Alt + F7 -> find usages
 - Ctrl + Alt + B -> Go to implementation(s)
 - Ctrl + Shift + T -> navigate to test
+- 鼠标选中文本后，按住Ctrl +Shift + U 大小写转换
+- 多点选中， 鼠标选中文本后，按住Alt + J可以同时选中相同的文本进行编辑，按住Alt +Shift+ J可以取消选中。
+      这个快捷键的名字叫：Add Selection for Next Occurrence，可以在file>Settings中进行搜索，修改成其他快捷键。
+
 
 ### 折叠
 - 可以通过 ctrl+F12直接显示一个弹出层，里面只有这个类的属性和方法，点击就能快速定位了。
