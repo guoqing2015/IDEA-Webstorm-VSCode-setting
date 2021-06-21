@@ -66,7 +66,7 @@
 
 
  - ctrl + shift + n: 打开工程中的文件，目的是打开当前工程下任意目录的文件。
- - ctrl + j: 输出模板
+ - ctrl + j: 插入代码片段(Code Snippet)，输出模板
  - ctrl + alt + T: 围绕包裹代码(包括zencoding的Wrap with Abbreviation)
  - ctrl + F12: Outline, 可以显示当前文件的结构
  - ctrl + shift + up: 行移动
