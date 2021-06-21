@@ -19,11 +19,13 @@
 
 
 ## 快捷键
-### navigate
+### 导航
 - alt + 向下箭头 ： 跳转下一个函数
 - alt + 向上箭头 ： 跳转上一个函数
 - alt + 向左箭头 ： 跳转左边标签
 - alt + 向右箭头 ： 跳转右边标签
+- ctrl + alt + 向左箭头 ： 光标跳转到上一次的位置
+- ctrl + alt + 向右箭头 ： 光标跳转到下一次的位置
 
 ### TOP 5 IntelliJ IDEA Navigation Shortcuts
 - 2x Shift -> search everywhere
