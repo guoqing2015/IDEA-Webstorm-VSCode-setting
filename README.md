@@ -1,4 +1,17 @@
 
+# IDEA
+
+## 快捷键
+- Alt + Enter : 结合上下文，显示error的fix信息；代码补全； lambda表达式生成
+- F2 : 快速定位报错行
+- Alt + 1: 快速定位到项目窗口
+- Ctrl + E : 显示最近修改的文件，最近打开的窗口区域
+- Ctrl + B  ｜ Ctrl + Alt + B: 快速导航至类定义，接口实现定义
+- Alt + F7 ： 定位类、方法在哪里用到了
+- Ctrl + Ctrl : 快速运行命令
+- Ctrl + / ｜ Ctrl + Shift + /  : 注释
+
+
 # WebStorm配置
 
 [ WebStorm“奇技淫巧” ](https://github.com/YutHelloWorld/Blog/issues/8)
