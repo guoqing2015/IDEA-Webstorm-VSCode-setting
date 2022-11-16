@@ -10,7 +10,11 @@
 - Alt + F7 ： 定位类、方法在哪里用到了
 - Ctrl + Ctrl : 快速运行命令
 - Ctrl + / ｜ Ctrl + Shift + /  : 注释
-
+- Ctrl + Shift + Enter  : 自动定位到降到写代码的地方
+- Ctrl + Alt + L: 格式化代码
+- Ctrl + Shift + Alt + T  : 重构代码
+- Ctrl + Shift + A : 查找action操作
+- Shift + Shift : 查找
 
 # WebStorm配置
 
