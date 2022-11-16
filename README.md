@@ -17,13 +17,23 @@
 - Shift + Shift : 查找
 
 ## 必装插件
-
+- IdeaVIm ： Vim模式
 - Alibaba Java Coding Guidelines : 代码规范
-- Code With Me
 - CodeGlance : 在右侧生成一个代码缩略图
 - Grep Console: 控制台log带颜色输出
+- Key Promoter X：快捷键提示工具，当你忘记快捷键而在IDE内的按钮上使用鼠标时，Key Promoter X会显示您应该使用的键盘快捷键。并在右下角提示；
+- MyBatis Log Plugin：MyBatis日志插件，强烈推荐，将mybatis sql日志还原到原始的整个可执行sql，可以直接复制使用执行；
+- JRebel and XRebel for IntelliJ：热部署插件，非常强大好用，但是要破解或者购买
+- Code With Me
 - Maven Helper
 
+收费的Jrebel(热部署)、
+MyBatisCodeHelperPro(联想生成mapper.xml、逆向工程)、
+MybatisLogPlugin(控制台拼接SQL语句)
+免费的CamelCase(大小写和下划线单词互相转换)、
+POJO to JSON(实体类转JSON)、
+RestfulToolKit(查询项目url)、
+jclasslib bytecode viewer(字节码查看工具)
 
 
 
