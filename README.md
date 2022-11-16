@@ -16,6 +16,20 @@
 - Ctrl + Shift + A : 查找action操作
 - Shift + Shift : 查找
 
+## 必装插件
+
+- Alibaba Java Coding Guidelines : 代码规范
+- Code With Me
+- CodeGlance : 在右侧生成一个代码缩略图
+- Grep Console: 控制台log带颜色输出
+- Maven Helper
+
+
+
+
+
+
+
 # WebStorm配置
 
 [ WebStorm“奇技淫巧” ](https://github.com/YutHelloWorld/Blog/issues/8)
