@@ -15,7 +15,7 @@
 - Ctrl + Shift + Alt + T  : 重构代码
 - Ctrl + Shift + A : 查找action操作
 - Shift + Shift : 查找
-- Ctrl + Shift + I : 查看函数结构
+- Ctrl + Shift + I : 显示当前CSS选择器或者JS函数的详细信息
 - Ctrl + Shift + 空格 : 代码提示
 
 ## 必装插件
