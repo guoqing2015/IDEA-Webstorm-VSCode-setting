@@ -18,6 +18,7 @@
 - Shift + Shift : 查找
 - Ctrl + Shift + I : 显示当前CSS选择器或者JS函数的详细信息
 - Ctrl + Shift + 空格 : 代码提示
+- CTRL+D : 比较两个文件或文件夹，在项目窗口中选中，再按CTRL+D
 
 - Esc : 在任何工具窗口中按Esc都会将焦点移至编辑器。
 - Shift + Esc : 按 Shift+Esc 可将焦点移至编辑器，并隐藏当前或最后一个活动工具窗口。
