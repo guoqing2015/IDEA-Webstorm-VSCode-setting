@@ -201,21 +201,18 @@ jclasslib bytecode viewer(字节码查看工具)
  - Code Outline : 查看代码结构
  - vscode-icos ：让文件类型一目了然
  - Project Manager ：管理项目
- - Beautify ： 格式化代码
- - vue-beautify
- - Debugger for Chrome
+ - Vetur: vue支持、Vue格式化工具
  - eslint 
  - IntelliSense for CSS class names in HTML : css提示
  - Path Intellisense： 路径提示
  - npm Intellisense
- - Vetur : vue 支持
  - wxml: 微信小程序wxml格式化及高亮组件
  - minapp ： 微信小程序标签、属性的智能补全（同时支持原生小程序、mpvue 和 wepy 框架，并提供 snippets）
  - 微信小程序开发工具
  - Rem rpx px -Converter
  - 小程序助手
  - DotEnv : 支持dotenv文件，语法高亮
- - koroFileHeader ： 自动注释插件设置
+
  
  - Javascript Snippet
  - HTML Snippets
