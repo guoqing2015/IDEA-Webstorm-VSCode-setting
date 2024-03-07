@@ -1,9 +1,7 @@
 {
     "workbench.colorTheme": "Monokai",
     "window.menuBarVisibility": "toggle",
-    "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
-    "window.zoomLevel": 0,
     "exclude": [
         "node_modules",
         "dist"
@@ -13,128 +11,86 @@
     "vim.incsearch": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
-        },
-    ],
-    "vim.otherModesKeyBindingsNonRecursive": [
-        {
-            "before": ["<leader>","d"],
+    "vim.insertModeKeyBindings": [{
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+    }, ],
+    "vim.otherModesKeyBindingsNonRecursive": [{
+            "before": ["<leader>", "d"],
             "after": ["d", "d"]
         },
         {
-            "before":["<C-n>"],
-            "after":[],
-            "commands": [
-                {
-                    "command": ":nohl"
-                }
-            ]
+            "before": ["<C-n>"],
+            "after": [],
+            "commands": [{
+                "command": ":nohl"
+            }]
         }
     ],
     "vim.leader": "<space>",
-    "vim.handleKeys":{
+    "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false,
         "<C-c>": false,
         "<C-x>": false,
+        "<C-p>": false,
         "<C-v>": false
     },
     "vim.useSystemClipboard": false,
     "vim.overrideCopy": false,
-     "fileheader.configObj": {
-        "createFileTime": true,
-        "language": {
-            "languagetest": {
-                "head": "/$$",
-                "middle": " $ @",
-                "end": " $/"
-            }
-        },
-        "autoAdd": false,  // 关闭自动添加头部注释
-        "autoAddLine": 100,
-        "autoAlready": true,
-        "annotationStr": {
-            "head": "/*",
-            "middle": " * @",
-            "end": " */",
-            "use": false
-        },
-        "headInsertLine": {
-            "php": 2,
-            "sh": 2
-        },
-        "beforeAnnotation": {
-            "文件后缀": "该文件后缀的头部注释之前添加某些内容"
-        },
-        "afterAnnotation": {
-            "文件后缀": "该文件后缀的头部注释之后添加某些内容"
-        },
-        "specialOptions": {
-            "特殊字段": "自定义比如LastEditTime/LastEditors"
-        },
-        "switch": {
-            "newlineAddAnnotation": true
-        },
-        "supportAutoLanguage": [],
-        "prohibitAutoAdd": [
-            "json"
-        ],
-        "folderBlacklist": [
-            "node_modules",
-            "文件夹禁止自动添加头部注释"
-        ],
-        "prohibitItemAutoAdd": [
-            "项目的全称, 整个项目禁止自动添加头部注释, 可以使用快捷键添加"
-        ],
-        "moveCursor": true,
-        "dateFormat": "YYYY-MM-DD HH:mm:ss",
-        "atSymbol": [
-            "@",
-            "@"
-        ],
-        "atSymbolObj": {
-            "文件后缀": [
-                "头部注释@符号",
-                "函数注释@符号"
-            ]
-        },
-        "colon": [
-            ": ",
-            ": "
-        ],
-        "colonObj": {
-            "文件后缀": [
-                "头部注释冒号",
-                "函数注释冒号"
-            ]
-        },
-        "filePathColon": "路径分隔符替换",
-        "showErrorMessage": false,
-        "writeLog": false,
-        "wideSame": false,
-        "wideNum": 13,
-        "functionWideNum": 0,
-        "CheckFileChange": false,
-        "createHeader": true,
-        "useWorker": false,
-        "designAddHead": false,
-        "headDesignName": "random",
-        "headDesign": false,
-        "cursorModeInternal": false,
-        "openFunctionParamsCheck": true,
-        "functionParamsShape": "normal",
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
     },
-    "fileheader.customMade": { // 文件头部注释
-        "Descripttion":"",
-        "Author":"郭清",
-        "Date":"Do not edit",
-        "LastEditors":"郭清",
-        "LastEditTime":"Do not Edit",
-        "FilePath":"Do not Edit"
+    "emmet.includeLanguages": {
+        "wxml": "html"
     },
-    "fileheader.cursorMode": {} // 函数注释
-}
+    "minapp-vscode.disableAutoConfig": true,
+    "git.openRepositoryInParentFolders": "always",
+    "editor.codeActionsOnSave": {
 
+
+    },
+    "search.exclude": {
+        "**/dist": true,
+        "**/uni_modules": true,
+        "**/unpackage": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.exclude": {
+        "**/dist": true,
+        "**/mobile/erp": true,
+        "**/mobile/erp-src": true,
+        "**/mobile/static": true,
+        "**/node_modules": true
+    },
+    "editor.wordWrapColumn": 200,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    }, // 函数注释
+    
+    // ----------------  设置属性、js不自动换行  ----------------
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "aligned-multiple" //当超出折行长度时，将属性进行垂直对齐
+        },
+        "prettyhtml": {
+            "printWidth": 100, //每行100字符
+            "singleQuote": false, //单引号强制转双引号
+            "wrapAttributes": false,
+            "sortAttributes": false
+        }
+    },
+    // 这个按用户自身习惯选择
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    // 让vue中的js按编辑器自带的ts格式进行格式化
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    // ----------------  设置属性、js不自动换行  ----------------
+
+
+
+
+}
