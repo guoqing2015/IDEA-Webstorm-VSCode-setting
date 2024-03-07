@@ -14,7 +14,7 @@
     "vim.insertModeKeyBindings": [{
         "before": ["j", "j"],
         "after": ["<Esc>"]
-    }, ],
+    }],
     "vim.otherModesKeyBindingsNonRecursive": [{
             "before": ["<leader>", "d"],
             "after": ["d", "d"]
@@ -71,7 +71,7 @@
     "[vue]": {
         "editor.defaultFormatter": "octref.vetur"
     }, // 函数注释
-    
+
     // ----------------  设置属性、js不自动换行  ----------------
     "vetur.format.defaultFormatterOptions": {
         "js-beautify-html": {
