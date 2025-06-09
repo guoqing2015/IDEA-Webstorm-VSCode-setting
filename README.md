@@ -212,6 +212,7 @@ jclasslib bytecode viewer(字节码查看工具)
  - Rem rpx px -Converter
  - 小程序助手
  - DotEnv : 支持dotenv文件，语法高亮
+ - Multiple Cursor : 代码自动生成
 
  
  - Javascript Snippet
