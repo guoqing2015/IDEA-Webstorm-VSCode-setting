@@ -219,6 +219,8 @@ jclasslib bytecode viewer(字节码查看工具)
  - HTML Snippets
  - wechat-snippet
  - vue 2 Snippets
+
+ - augmentcode: AI代码 https://www.augmentcode.com/registration?status=success
  
 ## Cursor
 
