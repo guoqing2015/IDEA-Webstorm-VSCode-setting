@@ -220,6 +220,18 @@ jclasslib bytecode viewer(字节码查看工具)
  - wechat-snippet
  - vue 2 Snippets
  
+## Cursor
+
+ - Tab 代码补全功能：生成，修复，重构代码
+ - 提示框（cmd + k）: 生成 or 修改局部（当前文件）代码
+ - 聊天（cmd + L / option + command + B）：新增功能 ，更广泛代码问题对话的地方
+ - @ 符号：它是用来引用一些东西，算是通过关联更重要的上下文来得到更准确的回复
+
+作者：幸运蜗牛
+链接：https://juejin.cn/post/7440482461762601010
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 
 ## 排除文件设定
 搜索期间需要忽略的一些文件夹 `.vscode/setting.json`,
