@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Monokai",
-    "window.menuBarVisibility": "toggle",
+    // "window.menuBarVisibility": "toggle",
     "workbench.statusBar.visible": true,
     "exclude": [
         "node_modules",
@@ -48,18 +48,18 @@
     "emmet.includeLanguages": {
         "wxml": "html"
     },
-    "minapp-vscode.disableAutoConfig": true,
-    "git.openRepositoryInParentFolders": "always",
-    "editor.codeActionsOnSave": {
+    //"minapp-vscode.disableAutoConfig": true,
+    //"git.openRepositoryInParentFolders": "always",
+    //"editor.codeActionsOnSave": {
 
 
-    },
+    //},
     "search.exclude": {
         "**/dist": true,
         "**/uni_modules": true,
         "**/unpackage": true
     },
-    "security.workspace.trust.untrustedFiles": "open",
+    //"security.workspace.trust.untrustedFiles": "open",
     "files.exclude": {
         "**/dist": true,
         "**/mobile/erp": true,
@@ -67,27 +67,27 @@
         "**/mobile/static": true,
         "**/node_modules": true
     },
-    "editor.wordWrapColumn": 200,
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    }, // 函数注释
+    //"editor.wordWrapColumn": 200,
+    //"[vue]": {
+    //    "editor.defaultFormatter": "octref.vetur"
+    //}, // 函数注释
 
     // ----------------  设置属性、js不自动换行  ----------------
-    "vetur.format.defaultFormatterOptions": {
-        "js-beautify-html": {
-            "wrap_attributes": "aligned-multiple" //当超出折行长度时，将属性进行垂直对齐
-        },
-        "prettyhtml": {
-            "printWidth": 100, //每行100字符
-            "singleQuote": false, //单引号强制转双引号
-            "wrapAttributes": false,
-            "sortAttributes": false
-        }
-    },
+    //"vetur.format.defaultFormatterOptions": {
+    //    "js-beautify-html": {
+    //        "wrap_attributes": "aligned-multiple" //当超出折行长度时，将属性进行垂直对齐
+    //    },
+    //    "prettyhtml": {
+    //        "printWidth": 100, //每行100字符
+    //        "singleQuote": false, //单引号强制转双引号
+    //        "wrapAttributes": false,
+    //        "sortAttributes": false
+     //   }
+    //},
     // 这个按用户自身习惯选择
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    // "vetur.format.defaultFormatter.html": "js-beautify-html",
     // 让vue中的js按编辑器自带的ts格式进行格式化
-    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    // "vetur.format.defaultFormatter.js": "vscode-typescript",
     // ----------------  设置属性、js不自动换行  ----------------
 
 
