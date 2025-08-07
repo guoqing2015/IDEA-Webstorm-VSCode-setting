@@ -41,9 +41,15 @@
     "editor.fontSize": 13,
     "editor.tabSize": 2,
     "files.associations": {
-        "*.cjson": "jsonc",
+         // 比如小程序中的 .wxss 这种文件，会把它作为css文件来处理，提供对应的css的语法提示，css的格式化等
         "*.wxss": "css",
-        "*.wxs": "javascript"
+        "*.wxml": "html",
+        "*.svg": "html",
+        "*.xml": "html",
+        "*.wxs": "javascript",
+        // json注释
+        "*.cjson": "jsonc",
+        "*.json": "jsonc"
     },
     "emmet.includeLanguages": {
         "wxml": "html"
