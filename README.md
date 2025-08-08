@@ -183,7 +183,7 @@ jclasslib bytecode viewer(字节码查看工具)
 ## 配置文件
 
 - keybinding.json
-- snippets
+- setting.json : 参考文件：https://gitee.com/cjl2385/dig-for-gold/blob/master/VSCode/settings.json
 
 ## 快捷键
 
