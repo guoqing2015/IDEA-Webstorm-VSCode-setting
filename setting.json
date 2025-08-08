@@ -63,7 +63,20 @@
     "search.exclude": {
         "**/dist": true,
         "**/uni_modules": true,
-        "**/unpackage": true
+        "**/unpackage": true,
+         "**/node_modules": true,
+        "**/pnpm-lock.yaml": true,
+        "**/package-lock.json": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.idea": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/dist": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
     },
     //"security.workspace.trust.untrustedFiles": "open",
     "files.exclude": {
@@ -72,6 +85,9 @@
         "**/mobile/erp-src": true,
         "**/mobile/static": true,
         "**/node_modules": true
+    },
+    "editor.codeActionsOnSave": {
+    
     },
     //"editor.wordWrapColumn": 200,
     //"[vue]": {
