@@ -198,6 +198,9 @@ jclasslib bytecode viewer(字节码查看工具)
 
 ## 必装插件
  - vim
+ - Vue(Official) : vue文件代码语法高亮
+
+ - 
  - Code Outline : 查看代码结构
  - vscode-icos ：让文件类型一目了然
  - Project Manager ：管理项目
